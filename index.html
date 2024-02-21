@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sort Lines Alphabetically by Toolzr</title>
+<meta name="description" content="Sort lines alphabetically with ease using this online tool. Perfect for developers, writers, and anyone in need of quick and accurate text organization.">
+</head>
+<body>
+<h1>Sort Lines Alphabetically</h1>
+<textarea id="inputText"></textarea>
+<button id="sortButton">Sort Lines</button>
+<h2>Sorted Lines:</h2>
+<pre id="sortedLines"></pre>
+
+<p>This tool is brought to you by <a href="https://toolzr.com" target="_blank">Toolzr</a> and is open source, licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>. The online version can be found at <a href="https://toolzr.com/sort-lines-alphabetically" target="_blank">toolzr.com/sort-lines-alphabetically</a>.</p>
+
+<script>
+document.getElementById('sortButton').addEventListener('click', function() {
+    const inputText = document.getElementById('inputText').value;
+    // This will sort the lines alphabetically and case-insensitively.
+    const sortedLines = inputText.split('\n').sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+    document.getElementById('sortedLines').textContent = sortedLines.join('\n');
+});
+</script>
+</body>
+</html>
