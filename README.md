@@ -12,7 +12,7 @@ A JavaScript-based open-source utility designed to efficiently sort lines of tex
 
 This tool is provided by Toolzr and is open-source, licensed under the MIT License. The online version can be found at [toolzr.com/sort-lines-alphabetically](https://toolzr.com/sort-lines-alphabetically).
 
-To use this tool offline or integrate it into your project, simply clone this repository and open `index.html` in your web browser. No additional setup is required.
+To use this tool offline or integrate it into your project, simply clone this repository and open `sort-lines-alphabetically.html` in your web browser. No additional setup is required.
 
 ```bash
 git clone https://github.com/toolzr/sort-lines-alphabetically.git
