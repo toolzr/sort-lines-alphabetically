@@ -28,4 +28,4 @@ This project is open-source and available under the MIT License. For more detail
 
 ## About Toolzr
 
-Toolzr provides a range of online tools designed to enhance productivity and creativity. Visit [Toolzr's website](https://toolzr.com) to explore more tools.
+Toolzr provides a range of online tools designed to enhance productivity and creativity. Visit [Toolzr](https://toolzr.com/) website to explore more tools.
